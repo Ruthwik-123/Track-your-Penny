@@ -1,0 +1,2 @@
+# Ignore environment variables file in the 'extra' directory
+/extra/.env

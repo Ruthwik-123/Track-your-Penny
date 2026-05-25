@@ -1,0 +1,39 @@
+budget-planner/
+│
+├── index.html                  # Landing / Home page
+├── signup.html                 # Dedicated Signup page
+├── login.html                  # Dedicated Login page
+├── dashboard.html              # Monthly Budget & Expense Dashboard
+├── expenses.html               # Expense tracker page
+├── analytics.html              # Charts & Visual Insights
+├── trending.html               # Trending apps & AI recommendations
+├── reports.html                # Monthly/Yearly financial reports
+├── settings.html               # User account & app settings
+│
+├── images/                     # Images, logos, backgrounds
+│   ├── logo.webp               # https://placehold.co/150x150/webp
+│   ├── hero-bg.webp            # https://placehold.co/1920x1080/webp
+│   └── category-icons/
+│       ├── rent.webp           # https://placehold.co/64x64/webp
+│       ├── food.webp           # https://placehold.co/64x64/webp
+│       ├── transport.webp      # https://placehold.co/64x64/webp
+│       ├── savings.webp        # https://placehold.co/64x64/webp
+│       ├── entertainment.webp  # https://placehold.co/64x64/webp
+│       ├── misc.webp           # https://placehold.co/64x64/webp
+│       ├── healthcare.webp     # https://placehold.co/64x64/webp
+│       ├── education.webp      # https://placehold.co/64x64/webp
+│       ├── shopping.webp       # https://placehold.co/64x64/webp
+│       └── gifts.webp          # https://placehold.co/64x64/webp
+│
+├── css/                        # CSS files
+│   ├── styles.css              # Base styling
+│   └── responsive.css          # Media queries & responsive tweaks
+│
+├── js/                         # JavaScript files
+│   ├── app.js                  # Core functionality: budget, expenses
+│   ├── auth.js                 # Signup/login validation
+│   └── ai.js                   # Placeholder for AI insights & recommendations
+│
+└── extra/                      # Extra resources, mock data
+    ├── trends.json             # Trending apps/data for AI
+    └── notes.txt               # Project notes
