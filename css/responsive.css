@@ -1,0 +1,150 @@
+/* ===========================
+   RESPONSIVE CSS 
+=========================== */
+
+/* Tablets & Medium Screens */
+@media (max-width: 1024px) {
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  #hero p {
+    font-size: 1.1rem;
+  }
+
+  .features-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .features-cards .card {
+    width: 45%;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 768px) {
+  header .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav a {
+    margin: 0.5rem 0;
+  }
+
+  #hero {
+    height: 60vh;
+  }
+
+  #hero h1 {
+    font-size: 1.8rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  .features-cards .card {
+    width: 80%;
+  }
+
+  /* Auth page tablet */
+  .auth-container {
+    width: 100%;
+    max-width: 95%;
+    min-height: 450px;
+  }
+
+  .form-container form {
+    padding: 0 25px;
+  }
+
+  .overlay-panel {
+    padding: 0 20px;
+  }
+
+  .overlay-panel h1 {
+    font-size: 1.5rem;
+  }
+
+  .overlay-panel p {
+    font-size: 12px;
+  }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 1.5rem;
+  }
+
+  #hero p {
+    font-size: 0.9rem;
+  }
+
+  .features-cards .card {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  .btn-primary {
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* Auth page mobile */
+  .auth-container {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 0;
+    min-height: 100vh;
+  }
+
+  .auth-container::before {
+    display: none;
+  }
+
+  .sign-in-container,
+  .sign-up-container {
+    width: 100%;
+  }
+
+  .form-container form {
+    padding: 0 20px;
+  }
+
+  .btn-auth {
+    padding: 10px 30px;
+    font-size: 11px;
+  }
+
+  .social-container a {
+    height: 35px;
+    width: 35px;
+  }
+
+  /* OTP overlay on mobile */
+  .verification-modal {
+    width: 95%;
+    max-width: 95%;
+    padding: 1.5rem;
+  }
+
+  .otp-digit {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
+  .otp-inputs {
+    gap: 0.3rem;
+  }
+}
